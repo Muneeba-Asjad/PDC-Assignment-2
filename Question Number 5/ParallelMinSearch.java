@@ -2,6 +2,7 @@ import java.util.concurrent.*;
 
 public class ParallelMinSearch extends SensorSearchEngine {
     public ParallelMinSearch(double[] data, int start, int end) {
+
         super(data, start, end);
     }
 
