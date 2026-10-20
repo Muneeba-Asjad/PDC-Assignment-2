@@ -1,12 +1,5 @@
-import java.util.concurrent.*;
 
-public class ParallelMinSearch extends SensorSearchEngine {
-    public ParallelMinSearch(double[] data, int start, int end) {
-
-        super(data, start, end);
-    }
-
-    @Override
+@Override
     public double processGrid() {
         int size = endIdx - startIdx;
         if (size == 0) {
