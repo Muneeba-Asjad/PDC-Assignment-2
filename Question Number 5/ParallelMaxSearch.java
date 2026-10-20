@@ -38,4 +38,5 @@ public class ParallelMaxSearch extends SensorSearchEngine {
             pool.shutdown();
         }
     }
+
 }
