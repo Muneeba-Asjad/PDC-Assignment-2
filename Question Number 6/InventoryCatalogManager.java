@@ -77,4 +77,14 @@ public class InventoryCatalogManager {
                 + (100000 / time) + " operations/second");
     }
 
+    public static void main(String[] args) throws Exception {
+
+        System.out.println("Inventory Catalog Benchmark");
+        System.out.println("Threads: " + THREADS);
+        System.out.println("Operations: " + OPERATIONS);
+
+        benchmarkSynchronizedMap();
+        benchmarkConcurrentMap();
+    }
+
 }
