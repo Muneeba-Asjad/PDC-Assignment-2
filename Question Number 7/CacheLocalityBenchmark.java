@@ -39,7 +39,6 @@ public class CacheLocalityBenchmark {
         long rowTime = 0;
         long colTime = 0;
         for (int i = 0; i < 10; i++) {
-
             long start = System.nanoTime();
 
             double rowSum = traverseRowMajor();
