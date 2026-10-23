@@ -11,7 +11,6 @@ public class ParallelMaxSearch extends SensorSearchEngine {
         if (size == 0) {
             return Double.NEGATIVE_INFINITY;
         }
-
         int workers = Math.min(4, size);
         ExecutorService pool = Executors.newFixedThreadPool(workers);
         try {
